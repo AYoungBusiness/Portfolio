@@ -3228,17 +3228,16 @@ input, select, textarea {
 	}
 
 		#wrapper > .bg {
-			position: absolute;
+			position: fixed;
 			top: 0;
 			left: 0;
-			width: 100%;
+			width: 100vw;
 			height: 100vh;
 			background-color: #212931;
 			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/PBackground.jpg");
 			background-size: cover;
 			background-position: center;
 			background-repeat: no-repeat;
-			background-attachment: fixed;
 			z-index: -1;
 		}
 
