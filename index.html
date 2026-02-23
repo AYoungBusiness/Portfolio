@@ -1,3 +1,4 @@
+<!DOCTYPE HTML>
 
 <html>
 	<head>
@@ -44,7 +45,7 @@
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
-									<span class="date">July 25, 2025</span>
+									<span class="date" id="current-date"></span>
 									<h2><a href="https://www.linkedin.com/in/andrew-young15/">Little bit <br />
 									about me</a></h2>
 									<p>I am an Operations Analyst with a background in Industrial and Systems Engineering from Binghamton University. Currently at Alstom, I serve as a Data SME, bridging the gap between complex MES datasets and executive-level decision making. I specialize in Power BI, SQL, and automation to drive measurable business impact and operational efficiency.
@@ -96,19 +97,25 @@
 										<li><a href="https://github.com/AYoungBusiness/telecom_churn-Cleaning/blob/main/Cleaning.ipynb" class="button">View Project</a></li>
 									</ul>
 								</article>
-								<article>
-									<header>
-										<span class="date"></span>
-										<h2><a href="https://github.com/AYoungBusiness/BikeDataSpreadsheetAnalysis">Bike Data<br />
-										Spreadsheet Project</a></h2>
-									</header>																					
-									<a href="https://github.com/AYoungBusiness/BikeDataSpreadsheetAnalysis" class="image fit"><img src="Bike.jpg" alt="" /></a>
-									<p>We used advanced Excel Techniques to clean and analyze the Spreadsheet data set. We then used Pivot tables and conditional formatting to create a Dashboard from the data. This dashboard shows
-										 the relationship between demographics such as age, commute distance, and marital status and whether or not they purchased a bike. </p>
-									<ul class="actions special">
-										<li><a href="https://github.com/AYoungBusiness/BikeDataSpreadsheetAnalysis" class="button">View Project</a></li>
-									</ul>
-								</article>
+								article>
+    <header>
+        <span class="date"></span>
+        <h2><a href="https://github.com/AYoungBusiness/BikeDataSpreadsheetAnalysis">Customer Intelligence <br />
+        Dashboard</a></h2>
+    </header>
+    <div class="row">
+        <div class="col-6 col-12-small">
+            <a href="#" class="image fit"><img src="Bike.jpg" alt="" /></a>
+        </div>
+        <div class="col-6 col-12-small">
+            <a href="#" class="image fit" style="margin-top: 20px; box-shadow: 0 10px 20px rgba(0,0,0,0.2);"><img src="images/Screenshot 2026-02-22 210812.png" alt="Dashboard View" /></a>
+        </div>
+    </div>
+    <p>We used advanced Excel Techniques to clean and analyze the Spreadsheet data set. We then used Pivot tables and conditional formatting to create a Dashboard from the data. This dashboard shows the relationship between demographics and purchase behavior.</p>
+    <ul class="actions special">
+        <li><a href="https://github.com/AYoungBusiness/BikeDataSpreadsheetAnalysis" class="button">View Project</a></li>
+    </ul>
+</article>
 								
 							</section>
 
@@ -178,10 +185,16 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+		<script>
+    const dateElement = document.getElementById('current-date');
+    const options = { year: 'numeric', month: 'long', day: 'numeric' };
+    dateElement.textContent = new Date().toLocaleDateString('en-US', options);
+</script>
 
 	</body>
 
 </html>
+
 
 
 
