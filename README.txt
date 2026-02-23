@@ -1,32 +1,55 @@
-Massively by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+🚀 Operations Analyst | Industrial Engineering & Data Automation
+Transforming Complex Datasets into Actionable Operational Insights
 
+🛠️ Technical Stack
 
-This is Massively, a text-heavy, article-oriented design built around a huge background
-image (with a new parallax implementation I'm testing) and scroll effects (powered by
-Scrollex). A *slight* departure from all the one-pagers I've been doing lately, but one
-that fulfills a few user requests and makes use of some new techniques I've been wanting
-to try out. Enjoy it :)
+Data Analytics: Power BI (DAX, M), Tableau, SQL (BigQuery, SQLite), Python (Pandas/NumPy) 
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+Automation: Power Automate, VBA, SAP Scripting, Azure DevOps 
 
-(* = not included)
+Methodologies: Lean Six Sigma Green Belt, Root Cause Analysis, KPI Development 
 
-AJ
-aj@lkn.io | @ajlkn
+📈 Featured Project: Industrial Costing & Efficiency Automation (Alstom)
 
+The Problem: Manual MES data extraction and fragmented reporting were causing delays in tracking operational KPIs.
 
-Credits:
+The Solution: Developed a suite of automated Power BI dashboards and Power Automate workflows to streamline report distribution.
 
-	Demo Images:
-		Unsplash (unsplash.com)
+The Impact:
 
-	Icons:
-		Font Awesome (fontawesome.io)
+$3M in project savings through KPI-driven Lean initiatives.
 
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+200+ hours saved annually by automating manual data processing.
+
+15% reduction in assembly time via root cause analysis and process optimization.
+
+📂 Key Repositories
+📊 Covid-19 Global Data Analysis
+
+Tools: Google Cloud BigQuery, SQL, Tableau.
+
+Summary: Cleaned and merged relational data tables to analyze the global impact and regional trends of the virus.
+
+⚙️ Operational Workflow Automation
+
+Tools: Python, VBA, SAP Scripting.
+
+Summary: Collection of scripts designed to validate data integrity and automate bulk uploads to ERP/MES systems.
+
+🎓 Certifications & Professional Development
+
+Lean Six Sigma Green Belt.
+
+Google Professional Data Analytics Certificate.
+
+IBM - Databases and SQL for Data Science with Python.
+
+B.S. Industrial and Systems Engineering - Binghamton University.
+
+📫 Connect with Me
+
+Portfolio: https://ayoungbusiness.github.io/Portfolio/
+
+LinkedIn: https://www.linkedin.com/in/andrew-young15/
+
+Email: ayoungbusiness9@gmail.com 
